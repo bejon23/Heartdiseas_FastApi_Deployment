@@ -19,8 +19,8 @@ except FileNotFoundError:
 template_folder = os.path.join(os.path.dirname(__file__), "templates")
 templates = Jinja2Templates(directory=template_folder)
 
-# Mount the static files directory
-app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), "static")), name="static")
+# Mount the 'static' directory to serve static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 class Item(BaseModel):
     BMI: float
