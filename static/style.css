@@ -1,0 +1,43 @@
+/* body style */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* heading style */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* input field style */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* submit button style */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* link style */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
